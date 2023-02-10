@@ -10,8 +10,8 @@ import UIKit
 
 typealias ShortcutItem = [String: Any];
 
-protocol ShortcutsDelegate: class {
-    func onShortcutItemPressed(_ item: ShortcutItem)
+protocol ShortcutsDelegate: AnyObject {
+    func quickActionShortcut(_ item: ShortcutItem)
 }
 
 @objc

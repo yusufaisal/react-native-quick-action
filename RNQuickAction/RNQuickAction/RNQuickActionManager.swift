@@ -9,7 +9,7 @@
 @objc(RNShortcuts)
 public class RNShortcuts: RCTEventEmitter {
 
-    let onShortcutItemPressed = "onShortcutItemPressed"
+    let quickActionShortcut = "quickActionShortcut"
 
     public override func startObserving() {
         Shortcuts.shared.delegate = self
@@ -21,11 +21,11 @@ public class RNShortcuts: RCTEventEmitter {
 
     public override func supportedEvents() -> [String]! {
         return [
-            onShortcutItemPressed
+            quickActionShortcut
         ]
     }
 
-    class func requiresMainQueueSetup() -> Bool {
+    public override class func requiresMainQueueSetup() -> Bool {
         return true
     }
 
@@ -63,7 +63,7 @@ public class RNShortcuts: RCTEventEmitter {
 }
 
 extension RNShortcuts: ShortcutsDelegate {
-    func onShortcutItemPressed(_ item: ShortcutItem) {
-        sendEvent(withName: onShortcutItemPressed, body: item)
+    func quickActionShortcut(_ item: ShortcutItem) {
+        sendEvent(withName: quickActionShortcut, body: item)
     }
 }

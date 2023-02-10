@@ -2521,11 +2521,6 @@ react-deep-force-update@^1.0.0:
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-1.1.2.tgz#3d2ae45c2c9040cbb1772be52f8ea1ade6ca2ee1"
   integrity sha512-WUSQJ4P/wWcusaH+zZmbECOk7H5N2pOIl0vzheeornkIMhu+qrNdGFm0bDZLCb0hSF0jf/kH1SgkNGfBdTc4wA==
 
-react-native-actions-shortcuts@^1.0.1:
-  version "1.0.1"
-  resolved "https://nxrm.jenius.tech/repository/npm-group/react-native-actions-shortcuts/-/react-native-actions-shortcuts-1.0.1.tgz#7b41660a51ddb349ec0ca7a0f852773b3451dd98"
-  integrity sha512-oAVi15d4Y3YygsObRzPVcV6ZYPbPb25iHTeO4UYNwYVnW8VtpguOj6d4u6kZ7dh9c7fQvyCSf1gEyLwqydlYqg==
-
 react-native@^0.40:
   version "0.40.0"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.40.0.tgz#ca7b86a8e8fbc7653634ad47ca2ffd69fdf18ad5"

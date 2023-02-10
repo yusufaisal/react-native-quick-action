@@ -10,8 +10,5 @@
   "license": "MIT",
   "devDependencies": {
     "react-native": "^0.40"
-  },
-  "dependencies": {
-    "react-native-actions-shortcuts": "^1.0.1"
   }
 }
