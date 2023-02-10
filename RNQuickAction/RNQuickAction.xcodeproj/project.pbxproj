@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD90517D1BD2EE4A00EFDEBC /* RNQuickActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD90517B1BD2EE4A00EFDEBC /* RNQuickActionManager.m */; };
 		AE512B932995E365007D7038 /* RNQuickActionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE512B922995E365007D7038 /* RNQuickActionManager.swift */; };
 		AE512B9C2995E48D007D7038 /* Shortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE512B9B2995E48D007D7038 /* Shortcuts.swift */; };
 /* End PBXBuildFile section */
@@ -280,7 +279,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD90517D1BD2EE4A00EFDEBC /* RNQuickActionManager.m in Sources */,
 				AE512B932995E365007D7038 /* RNQuickActionManager.swift in Sources */,
 				AE512B9C2995E48D007D7038 /* Shortcuts.swift in Sources */,
 			);
