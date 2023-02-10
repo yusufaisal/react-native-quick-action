@@ -60,7 +60,7 @@ class Shortcuts: NSObject {
             return
         }
 
-        delegate.onShortcutItemPressed(unhandledShortcutItem.asDictionary)
+        delegate.quickActionShortcut(unhandledShortcutItem.asDictionary)
         self.unhandledShortcutItem = nil
     }
 
@@ -70,7 +70,7 @@ class Shortcuts: NSObject {
             return
         }
 
-        delegate.onShortcutItemPressed(item.asDictionary)
+        delegate.quickActionShortcut(item.asDictionary)
     }
 }
 
